@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Selection</title>
+</head>
+
+<body>
+    <h2>Select a Movie</h2>
+    <select id="movieSelect">
+        <option value="">Select a movie...</option>
+        <option id="movie1" value="movie1">Jurassic Park</option>
+        <option id="movie2" value="movie2">Tombstone</option>
+        <option id="movie3" value="movie3">Predator</option>
+    </select>
+    <button id="submitMovieBtn">Submit</button>
+
+    <div id="timeSelection" style="display:none;">
+        <h2>Select Time</h2>
+        <select id="timeSelect">
+            <option id="time1">1:00 PM</option>
+            <option id="time2">6:00 PM</option>
+        </select>
+        <button id="submitTimeBtn">Submit</button>
+    </div>
+
+    <div id="ageInputDiv" style="display:none;">
+        <h2>Enter Your Age</h2>
+        <input type="number" id="ageInput">
+        <button id="submitAgeBtn">Submit</button>
+    </div>
+
+    <div id="finalDetails" style="display:none;">
+        <h2>Your Selection</h2>
+        <p id="selectionDetails"></p>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
